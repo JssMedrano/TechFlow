@@ -12,7 +12,7 @@ import '../../widgets/status_chips.dart';
 import '../../widgets/techflow_ui.dart';
 import 'service_order_form_screen.dart';
 
-/// Lista de OS estilo TechFlow — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Lista de OS estilo TechFlow
 class ServiceOrdersScreen extends StatefulWidget {
   final VoidCallback? onOpenMenu;
   const ServiceOrdersScreen({super.key, this.onOpenMenu});

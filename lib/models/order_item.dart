@@ -1,4 +1,4 @@
-/// Item de peça/material da OS — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Item de peça/material da OS
 class OrderItem {
   final int? id;
   final int? orderId;

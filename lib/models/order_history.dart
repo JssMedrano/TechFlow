@@ -1,4 +1,4 @@
-/// Histórico de alterações da OS — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Histórico de alterações da OS
 class OrderHistory {
   final int? id;
   final int orderId;

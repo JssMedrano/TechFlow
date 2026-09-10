@@ -1,7 +1,7 @@
 import '../models/technician.dart';
 import '../services/database_service.dart';
 
-/// Repositório de técnicos — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Repositório de técnicos
 class TechnicianRepository {
   Future<List<Technician>> getAll({bool onlyActive = false, String? query}) async {
     final db = await DatabaseService.instance.database;

@@ -10,7 +10,7 @@ import '../../providers/equipment_provider.dart';
 import '../../widgets/confirm_dialog.dart';
 import '../../widgets/techflow_ui.dart';
 
-/// Lista e cadastro (CRUD) de equipamentos — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Lista e cadastro (CRUD) de equipamentos
 class EquipmentScreen extends StatelessWidget {
   final VoidCallback? onOpenMenu;
   const EquipmentScreen({super.key, this.onOpenMenu});

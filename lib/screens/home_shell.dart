@@ -16,7 +16,7 @@ import 'service_orders/service_order_form_screen.dart';
 import 'service_orders/service_orders_screen.dart';
 import 'technicians/technicians_screen.dart';
 
-/// Estrutura principal TechFlow com barra lateral responsiva/colapsável — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Estrutura principal TechFlow com barra lateral responsiva/colapsável
 class HomeShell extends StatefulWidget {
   const HomeShell({super.key});
 

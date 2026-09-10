@@ -1,4 +1,4 @@
-/// Cliente da empresa — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Cliente da empresa
 class Client {
   final int? id;
   final String name;

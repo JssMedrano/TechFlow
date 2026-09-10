@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import '../core/theme.dart';
 import '../services/image_service.dart';
 
-/// Exibe evidência da OS — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Exibe evidência da OS
 class OrderImagePreview extends StatelessWidget {
   final String? path;
   final double height;

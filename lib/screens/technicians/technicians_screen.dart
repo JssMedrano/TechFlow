@@ -9,7 +9,7 @@ import '../../providers/technician_provider.dart';
 import '../../widgets/confirm_dialog.dart';
 import '../../widgets/techflow_ui.dart';
 
-/// Lista e cadastro (CRUD) de técnicos — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Lista e cadastro (CRUD) de técnicos
 class TechniciansScreen extends StatelessWidget {
   final VoidCallback? onOpenMenu;
   const TechniciansScreen({super.key, this.onOpenMenu});

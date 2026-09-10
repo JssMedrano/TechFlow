@@ -12,7 +12,7 @@ import 'screens/login_screen.dart';
 import 'services/database_service.dart';
 import 'services/seed_service.dart';
 
-/// App principal — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// App principal
 class ManutencaoApp extends StatelessWidget {
   const ManutencaoApp({super.key});
 

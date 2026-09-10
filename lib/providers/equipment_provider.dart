@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../models/equipment.dart';
 import '../repositories/equipment_repository.dart';
 
-/// Estado de equipamentos — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Estado de equipamentos
 class EquipmentProvider extends ChangeNotifier {
   final _repo = EquipmentRepository();
   List<Equipment> _items = [];

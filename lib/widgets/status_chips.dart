@@ -4,7 +4,7 @@ import '../core/constants.dart';
 import '../core/theme.dart';
 import 'techflow_ui.dart';
 
-/// Etiquetas de status/prioridade TechFlow — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Etiquetas de status/prioridade TechFlow
 class StatusChip extends StatelessWidget {
   final OrderStatus status;
   const StatusChip({super.key, required this.status});

@@ -11,7 +11,7 @@ import '../providers/technician_provider.dart';
 import '../widgets/status_chips.dart';
 import '../widgets/techflow_ui.dart';
 
-/// Painel operacional TechFlow — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Painel operacional TechFlow
 class DashboardScreen extends StatelessWidget {
   final void Function(void Function(ServiceOrderProvider) applyFilter) onOpenOrders;
   final VoidCallback onViewAllOrders;

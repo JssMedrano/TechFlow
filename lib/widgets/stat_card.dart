@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Cartão de indicador do painel — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Cartão de indicador do painel
 class StatCard extends StatelessWidget {
   final String title;
   final String value;

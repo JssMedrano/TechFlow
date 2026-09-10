@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../core/theme.dart';
 
-/// Fundo com grade técnica — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Fundo com grade técnica
 class GridBackground extends StatelessWidget {
   final Widget child;
   const GridBackground({super.key, required this.child});
@@ -35,7 +35,7 @@ class _GridPainter extends CustomPainter {
   bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
 }
 
-/// Etiqueta de status estilo TechFlow — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Etiqueta de status estilo TechFlow
 class TfStatusBadge extends StatelessWidget {
   final String label;
   final Color color;
@@ -64,7 +64,7 @@ class TfStatusBadge extends StatelessWidget {
   }
 }
 
-/// Cabeçalho de página responsivo — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Cabeçalho de página responsivo
 class TfPageHeader extends StatelessWidget {
   final String title;
   final String? subtitle;
@@ -195,7 +195,7 @@ class TfPageHeader extends StatelessWidget {
   }
 }
 
-/// Cartão de métrica do painel — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Cartão de métrica do painel
 class MetricCard extends StatelessWidget {
   final String title;
   final String value;
@@ -287,7 +287,7 @@ class MetricCard extends StatelessWidget {
   }
 }
 
-/// Botão primário lima — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Botão primário lima
 class TfPrimaryButton extends StatelessWidget {
   final String label;
   final IconData? icon;
@@ -336,7 +336,7 @@ class TfPrimaryButton extends StatelessWidget {
   }
 }
 
-/// Painel/seção com título — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Painel/seção com título
 class TfSectionCard extends StatelessWidget {
   final String title;
   final IconData? icon;

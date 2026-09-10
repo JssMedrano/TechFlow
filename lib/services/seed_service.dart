@@ -12,7 +12,7 @@ import '../repositories/technician_repository.dart';
 import '../repositories/user_repository.dart';
 import 'database_service.dart';
 
-/// Dados de exemplo para demonstração — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Dados de exemplo para demonstração
 class SeedService {
   final _users = UserRepository();
   final _clients = ClientRepository();
@@ -222,7 +222,7 @@ class SeedService {
       equipIds.add(await _equipment.insert(e));
     }
 
-    // 10+ ordens em status/prioridades variados — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+    // 10+ ordens em status/prioridades variados
     final samples = <ServiceOrder>[
       ServiceOrder(
         code: 'OS-${now.year}-0001',

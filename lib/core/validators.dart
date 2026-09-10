@@ -1,4 +1,4 @@
-/// Validações de formulário — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Validações de formulário
 class AppValidators {
   static String? required(String? value, [String field = 'Campo']) {
     if (value == null || value.trim().isEmpty) {

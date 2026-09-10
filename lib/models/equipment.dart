@@ -1,4 +1,4 @@
-/// Equipamento / ativo vinculado ao cliente — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Equipamento / ativo vinculado ao cliente
 class Equipment {
   final int? id;
   final int clientId;

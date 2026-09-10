@@ -4,7 +4,7 @@ import 'package:manutencao_os/core/constants.dart';
 import 'package:manutencao_os/models/order_item.dart';
 import 'package:manutencao_os/models/service_order.dart';
 
-/// Testes unitários básicos — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Testes unitários básicos
 void main() {
   test('transição inválida é bloqueada', () {
     expect(

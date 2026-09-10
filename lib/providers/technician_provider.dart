@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../models/technician.dart';
 import '../repositories/technician_repository.dart';
 
-/// Estado de técnicos — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Estado de técnicos
 class TechnicianProvider extends ChangeNotifier {
   final _repo = TechnicianRepository();
   List<Technician> _items = [];

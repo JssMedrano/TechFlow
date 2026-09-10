@@ -1,7 +1,7 @@
 import '../core/constants.dart';
 import 'order_item.dart';
 
-/// Ordem de Serviço — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Ordem de Serviço
 class ServiceOrder {
   final int? id;
   final String code;
@@ -163,7 +163,7 @@ class ServiceOrder {
   }
 }
 
-/// Indicadores do painel — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Indicadores do painel
 class DashboardStats {
   final int total;
   final int open;

@@ -25,7 +25,7 @@ import '../../widgets/order_image_preview.dart';
 import '../../widgets/status_chips.dart';
 import '../../widgets/techflow_ui.dart';
 
-/// Formulário completo da OS — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Formulário completo da OS
 class ServiceOrderFormScreen extends StatefulWidget {
   final int? orderId;
   const ServiceOrderFormScreen({super.key, this.orderId});
@@ -407,7 +407,7 @@ class _ServiceOrderFormScreenState extends State<ServiceOrderFormScreen> {
     );
   }
 
-  /// INFORMAÇÕES GERAIS — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+  /// INFORMAÇÕES GERAIS
   Widget _buildInfoSection(List<Client> clients, bool canEdit) {
     return TfSectionCard(
       title: 'Informações gerais',
@@ -448,7 +448,7 @@ class _ServiceOrderFormScreenState extends State<ServiceOrderFormScreen> {
     );
   }
 
-  /// DIAGNÓSTICO E SOLUÇÃO — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+  /// DIAGNÓSTICO E SOLUÇÃO
   Widget _buildDiagnosisSection(bool canEdit) {
     return TfSectionCard(
       title: 'Diagnóstico e solução',
@@ -473,7 +473,7 @@ class _ServiceOrderFormScreenState extends State<ServiceOrderFormScreen> {
     );
   }
 
-  /// MATERIAIS E MÃO DE OBRA — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+  /// MATERIAIS E MÃO DE OBRA
   Widget _buildMaterialsSection(bool canEdit) {
     return TfSectionCard(
       title: 'Materiais e mão de obra',
@@ -680,7 +680,7 @@ class _ServiceOrderFormScreenState extends State<ServiceOrderFormScreen> {
     );
   }
 
-  /// GESTÃO — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+  /// GESTÃO
   Widget _buildGestionSection(
     List<Technician> technicians,
     List<OrderStatus> statusOptions,
@@ -747,7 +747,7 @@ class _ServiceOrderFormScreenState extends State<ServiceOrderFormScreen> {
     );
   }
 
-  /// EVIDÊNCIAS — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+  /// EVIDÊNCIAS
   Widget _buildEvidenciasSection(bool canEdit) {
     return TfSectionCard(
       title: 'Evidências',
@@ -781,7 +781,7 @@ class _ServiceOrderFormScreenState extends State<ServiceOrderFormScreen> {
     );
   }
 
-  /// HISTÓRICO — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+  /// HISTÓRICO
   Widget _buildHistorialSection() {
     return TfSectionCard(
       title: 'Histórico',
@@ -805,7 +805,7 @@ class _ServiceOrderFormScreenState extends State<ServiceOrderFormScreen> {
   }
 }
 
-/// Ponto da timeline do histórico — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Ponto da timeline do histórico
 class _HistoryDot extends StatelessWidget {
   final OrderHistory entry;
   final bool isLast;

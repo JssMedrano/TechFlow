@@ -3,7 +3,7 @@ import 'dart:typed_data';
 
 import 'package:path/path.dart' as p;
 
-/// Implementação de E/S de imagens (Android/Windows) — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Implementação de E/S de imagens (Android/Windows)
 class ImageIoBridge {
   static Future<String> save(String dirPath, String name, Uint8List bytes) async {
     final dir = Directory(dirPath);

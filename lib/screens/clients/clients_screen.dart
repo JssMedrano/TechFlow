@@ -10,7 +10,7 @@ import '../../providers/equipment_provider.dart';
 import '../../widgets/confirm_dialog.dart';
 import '../../widgets/techflow_ui.dart';
 
-/// Diretório de Clientes TechFlow — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Diretório de Clientes TechFlow
 class ClientsScreen extends StatelessWidget {
   final VoidCallback? onOpenMenu;
   const ClientsScreen({super.key, this.onOpenMenu});

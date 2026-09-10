@@ -1,4 +1,4 @@
-/// Técnico responsável — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Técnico responsável
 class Technician {
   final int? id;
   final String name;

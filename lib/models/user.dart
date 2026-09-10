@@ -1,6 +1,6 @@
 import '../core/constants.dart';
 
-/// Usuário do sistema (autenticação local) — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Usuário do sistema (autenticação local)
 class AppUser {
   final int? id;
   final String username;

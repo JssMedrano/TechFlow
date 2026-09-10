@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-/// Paleta e tema TechFlow — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Paleta e tema TechFlow
 class AppTheme {
   static const Color bg = Color(0xFF12141C);
   static const Color surface = Color(0xFF1C1F2E);

@@ -1,7 +1,7 @@
 import '../models/user.dart';
 import '../services/database_service.dart';
 
-/// Repositório de usuários — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Repositório de usuários
 class UserRepository {
   Future<AppUser?> authenticate(String username, String password) async {
     final db = await DatabaseService.instance.database;

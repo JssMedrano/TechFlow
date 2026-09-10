@@ -9,7 +9,7 @@ import 'package:uuid/uuid.dart';
 
 import 'image_io_stub.dart' if (dart.library.io) 'image_io_io.dart';
 
-/// Serviço de imagens multiplataforma — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Serviço de imagens multiplataforma
 class ImageService {
   final _picker = ImagePicker();
   final _uuid = const Uuid();

@@ -93,7 +93,3 @@ Na primeira execução o app popula automaticamente clientes, técnicos, equipam
 - `docs/RELATORIO_FINAL.md` — análise crítica
 - `docs/WIREFRAMES.md` — protótipo das telas
 - `docs/EVIDENCIAS.md` — roteiro de demonstração
-
-## Observação acadêmica
-
-Comentários no código incluem a frase **TAMANDUÁ-BANDEIRA UM BICHO LEGAL**, conforme solicitado.

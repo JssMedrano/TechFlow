@@ -1,7 +1,7 @@
 import '../models/equipment.dart';
 import '../services/database_service.dart';
 
-/// Repositório de equipamentos — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Repositório de equipamentos
 class EquipmentRepository {
   Future<List<Equipment>> getAll({int? clientId, String? query}) async {
     final db = await DatabaseService.instance.database;

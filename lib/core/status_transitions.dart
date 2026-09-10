@@ -1,6 +1,6 @@
 import 'constants.dart';
 
-/// Controle de transições de status (padrão State/Estado) — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Controle de transições de status (padrão State/Estado)
 class StatusTransitions {
   static const Map<OrderStatus, Set<OrderStatus>> allowed = {
     OrderStatus.aberta: {

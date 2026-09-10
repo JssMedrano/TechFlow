@@ -1,6 +1,6 @@
 import 'package:intl/intl.dart';
 
-/// Utilitários compartilhados — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Utilitários compartilhados
 class AppFormatters {
   static final currency = NumberFormat.currency(locale: 'pt_BR', symbol: r'R$');
   static final date = DateFormat('dd/MM/yyyy');

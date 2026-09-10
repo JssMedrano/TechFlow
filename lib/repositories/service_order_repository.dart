@@ -5,7 +5,7 @@ import '../models/order_item.dart';
 import '../models/service_order.dart';
 import '../services/database_service.dart';
 
-/// Filtros de busca de OS — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Filtros de busca de OS
 class ServiceOrderFilter {
   final String? query;
   final OrderStatus? status;
@@ -24,7 +24,7 @@ class ServiceOrderFilter {
   });
 }
 
-/// Repositório de ordens de serviço — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Repositório de ordens de serviço
 class ServiceOrderRepository {
   static const _selectJoin = '''
     SELECT o.*,

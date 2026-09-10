@@ -1,7 +1,7 @@
 import '../models/client.dart';
 import '../services/database_service.dart';
 
-/// Repositório de clientes — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Repositório de clientes
 class ClientRepository {
   Future<List<Client>> getAll({String? query}) async {
     final db = await DatabaseService.instance.database;

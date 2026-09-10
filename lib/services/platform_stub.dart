@@ -1,2 +1,2 @@
-/// Implementação auxiliar para web — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Implementação auxiliar para web
 bool get isDesktopPlatform => false;

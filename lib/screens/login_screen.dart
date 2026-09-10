@@ -7,7 +7,7 @@ import '../core/theme.dart';
 import '../providers/auth_provider.dart';
 import '../widgets/techflow_ui.dart';
 
-/// Login TechFlow (layout dividido no desktop / formulário no mobile) — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Login TechFlow (layout dividido no desktop / formulário no mobile)
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
 

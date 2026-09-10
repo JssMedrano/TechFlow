@@ -5,7 +5,7 @@ import '../models/order_history.dart';
 import '../models/service_order.dart';
 import '../repositories/service_order_repository.dart';
 
-/// Estado de ordens de serviço e painel — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Estado de ordens de serviço e painel
 class ServiceOrderProvider extends ChangeNotifier {
   final _repo = ServiceOrderRepository();
   List<ServiceOrder> _items = [];

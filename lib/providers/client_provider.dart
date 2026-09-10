@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../models/client.dart';
 import '../repositories/client_repository.dart';
 
-/// Estado de clientes — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Estado de clientes
 class ClientProvider extends ChangeNotifier {
   final _repo = ClientRepository();
   List<Client> _items = [];

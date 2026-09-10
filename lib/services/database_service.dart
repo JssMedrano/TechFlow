@@ -7,7 +7,7 @@ import 'package:sqflite_common_ffi_web/sqflite_ffi_web.dart';
 import '../core/constants.dart';
 import 'platform_stub.dart' if (dart.library.io) 'platform_io.dart';
 
-/// Acesso único (singleton) ao SQLite multiplataforma — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Acesso único (singleton) ao SQLite multiplataforma
 class DatabaseService {
   DatabaseService._();
   static final DatabaseService instance = DatabaseService._();
@@ -55,7 +55,7 @@ class DatabaseService {
   }
 
   Future<void> _onCreate(Database db, int version) async {
-    // Schema com relacionamentos — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+    // Schema com relacionamentos
     await db.execute('''
       CREATE TABLE clients (
         id INTEGER PRIMARY KEY AUTOINCREMENT,

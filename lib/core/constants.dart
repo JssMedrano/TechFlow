@@ -1,5 +1,4 @@
 /// Constantes da aplicação TechFlow.
-/// TAMANDUÁ-BANDEIRA UM BICHO LEGAL — mascote oficial dos comentários.
 class AppConstants {
   static const String appName = 'TechFlow';
   static const String appSubtitle = 'Gestão de Ordens de Serviço';
@@ -16,7 +15,7 @@ class AppConstants {
   static const int dbVersion = 1;
 }
 
-/// Perfis de acesso — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Perfis de acesso
 enum UserRole { administrador, atendente, tecnico }
 
 extension UserRoleX on UserRole {
@@ -39,7 +38,7 @@ extension UserRoleX on UserRole {
   }
 }
 
-/// Status do ciclo da OS — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Status do ciclo da OS
 enum OrderStatus {
   aberta,
   atribuida,
@@ -77,7 +76,7 @@ extension OrderStatusX on OrderStatus {
   }
 }
 
-/// Prioridade da OS — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Prioridade da OS
 enum OrderPriority { baixa, media, alta, urgente }
 
 extension OrderPriorityX on OrderPriority {

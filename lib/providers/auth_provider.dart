@@ -5,7 +5,7 @@ import '../core/constants.dart';
 import '../models/user.dart';
 import '../repositories/user_repository.dart';
 
-/// Gerenciador de autenticação local — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Gerenciador de autenticação local
 class AuthProvider extends ChangeNotifier {
   final _repo = UserRepository();
   AppUser? _user;

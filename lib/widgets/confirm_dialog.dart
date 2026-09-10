@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Confirma exclusões — TAMANDUÁ-BANDEIRA UM BICHO LEGAL
+/// Confirma exclusões
 Future<bool> confirmDelete(
   BuildContext context, {
   required String title,
