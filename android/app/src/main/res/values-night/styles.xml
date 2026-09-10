@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema aplicado à Janela Android enquanto o processo inicia e o Modo Escuro do SO está ligado -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <!-- Exibe a tela de splash na activity. Removida automaticamente quando
+             o motor Flutter desenha o primeiro frame -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <!-- Tema aplicado à Janela Android assim que o processo é iniciado.
+         Este tema define a cor da Janela Android enquanto a interface Flutter
+         inicializa, e também atrás da interface Flutter enquanto ela está
+         em execução.
+
+         Este Tema só é usado a partir da V2 do embedding Android do Flutter. -->
+    <style name="NormalTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+</resources>
