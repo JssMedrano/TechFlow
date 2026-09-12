@@ -17,7 +17,7 @@ class DatabaseService {
 
   Future<void> ensureFactory() async {
     if (_factoryReady) return;
-    // Inicialização por plataforma (web / desktop / celular).
+    // Web: FFI web. Desktop (Windows/macOS/Linux): FFI nativo. Android: sqflite.
     if (kIsWeb) {
       databaseFactory = databaseFactoryFfiWeb;
     } else if (isDesktopPlatform) {

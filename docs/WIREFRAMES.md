@@ -1,7 +1,7 @@
 # Wireframes / Protótipo das telas — TechFlow
 
 Protótipo textual alinhado à interface entregue (tema escuro TechFlow).  
-Plataformas: Web, Windows e Android.
+Plataformas: Web, Windows, Android, macOS e Linux.
 
 ## 1. Login
 

@@ -57,11 +57,11 @@ Regras:
 
 SQLite local:
 - Android: `sqflite`
-- Windows: `sqflite_common_ffi`
+- Windows, macOS e Linux: `sqflite_common_ffi` com SQLite nativo (`sqlite3_flutter_libs`)
 - Web: `sqflite_common_ffi_web`
 
 Imagens:
-- Android/Windows: arquivos no diretório da aplicação
+- Android/Windows/macOS/Linux: arquivos no diretório da aplicação
 - Web: Base64 em `SharedPreferences`
 
 ## 7. Dados de exemplo

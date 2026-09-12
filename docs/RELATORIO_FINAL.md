@@ -2,14 +2,14 @@
 
 ## Funcionalidades implementadas
 
-Foram implementados login local com perfis, CRUDs de clientes/técnicos/equipamentos, gestão completa de ordens de serviço (status, prioridade, prazo, peças, mão de obra, total automático, imagens e histórico), busca/filtros, painel operacional com os indicadores exigidos e persistência SQLite multiplataforma (Web, Windows e Android), com dados de demonstração.
+Foram implementados login local com perfis, CRUDs de clientes/técnicos/equipamentos, gestão completa de ordens de serviço (status, prioridade, prazo, peças, mão de obra, total automático, imagens e histórico), busca/filtros, painel operacional com os indicadores exigidos e persistência SQLite multiplataforma (Web, Windows, Android, macOS e Linux), com dados de demonstração.
 
 ## Dificuldades encontradas
 
 - Compatibilidade do SQLite entre Web e desktop/mobile exigiu factories distintas (`ffi` / `ffi_web`)
 - Anexos de imagem na Web precisaram de armazenamento alternativo (Base64)
 - Regras de transição de status e exclusões com relacionamentos demandaram validações para evitar inconsistências
-- Layout responsivo (sidebar colapsável, títulos e cards) exigiu ajustes finos em Windows e mobile
+- Layout responsivo (sidebar colapsável, títulos e cards) exigiu ajustes finos em desktop e mobile
 
 ## Decisões técnicas
 
@@ -47,4 +47,4 @@ SQLite local com foreign keys e histórico de alterações por ordem.
 
 ## Conclusão
 
-O aplicativo TechFlow atende aos requisitos obrigatórios do enunciado, demonstra POO, navegação, validação, regras de negócio e persistência relacional, e está preparado para execução e demonstração nas plataformas Web, Windows e Android.
+O aplicativo TechFlow atende aos requisitos obrigatórios do enunciado, demonstra POO, navegação, validação, regras de negócio e persistência relacional, e está preparado para execução e demonstração nas plataformas Web, Windows, Android, macOS e Linux.
