@@ -3,7 +3,7 @@
 Aplicativo Flutter para gestão de ordens de serviço e manutenção técnica.
 
 **Marca:** TechFlow  
-**Plataformas:** Web, Windows e Android.
+**Plataformas:** Web, Windows, Android, macOS e Linux.
 
 ## Objetivo
 
@@ -12,7 +12,7 @@ Centralizar clientes, técnicos, equipamentos e ordens de serviço, substituindo
 ## Tecnologias
 
 - Flutter 3 / Dart 3
-- SQLite (`sqflite` + `sqflite_common_ffi` + `sqflite_common_ffi_web`)
+- SQLite (`sqflite` + `sqflite_common_ffi` + `sqflite_common_ffi_web` + `sqlite3_flutter_libs`)
 - Provider (estado)
 - image_picker / SharedPreferences (evidências)
 - google_fonts (UI TechFlow)
@@ -34,6 +34,8 @@ lib/
 
 - Flutter SDK (`flutter doctor`)
 - Windows: Visual Studio com workload Desktop C++
+- macOS: Xcode (aplicativos macOS)
+- Linux: `clang`, `cmake`, `ninja-build`, `pkg-config` e `libgtk-3-dev`
 - Android: Android Studio / SDK
 - Web: Chrome ou Edge
 
@@ -54,6 +56,19 @@ flutter run -d chrome
 
 ```bash
 flutter run -d windows
+```
+
+### macOS
+
+```bash
+flutter run -d macos
+```
+
+### Linux
+
+```bash
+sudo apt-get install -y clang cmake ninja-build pkg-config libgtk-3-dev libstdc++-dev
+flutter run -d linux
 ```
 
 ### Android

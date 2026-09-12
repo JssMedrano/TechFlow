@@ -31,5 +31,5 @@ Checklist para demonstração ao professor:
 - Confirmar exclusões destrutivas via diálogo
 
 ## Interface
-- Desktop: sidebar colapsável/expansível
+- Desktop (Windows, macOS e Linux): sidebar colapsável/expansível
 - Mobile: hamburger alinhado ao título + drawer
