@@ -3,10 +3,10 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path/path.dart' as p;
-import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:uuid/uuid.dart';
 
+import '../core/app_paths.dart';
 import 'image_io_stub.dart' if (dart.library.io) 'image_io_io.dart';
 
 /// Serviço de imagens multiplataforma
@@ -30,8 +30,8 @@ class ImageService {
       return 'web:$key';
     }
 
-    final dir = await getApplicationDocumentsDirectory();
-    final imagesDir = p.join(dir.path, 'os_images');
+    final dir = await appDataPath();
+    final imagesDir = p.join(dir, 'os_images');
     return ImageIoBridge.save(imagesDir, '${_uuid.v4()}.jpg', bytes);
   }
 

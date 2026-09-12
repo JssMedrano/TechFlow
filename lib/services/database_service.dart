@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:path/path.dart' as p;
-import 'package:path_provider/path_provider.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 import 'package:sqflite_common_ffi_web/sqflite_ffi_web.dart';
 
+import '../core/app_paths.dart';
 import '../core/constants.dart';
 import 'platform_stub.dart' if (dart.library.io) 'platform_io.dart';
 
@@ -36,8 +36,8 @@ class DatabaseService {
 
   Future<String> _dbPath() async {
     if (kIsWeb) return AppConstants.dbName;
-    final dir = await getApplicationDocumentsDirectory();
-    return p.join(dir.path, AppConstants.dbName);
+    final dir = await appDataPath();
+    return p.join(dir, AppConstants.dbName);
   }
 
   Future<Database> _open() async {

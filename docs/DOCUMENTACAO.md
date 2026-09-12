@@ -61,7 +61,7 @@ SQLite local:
 - Web: `sqflite_common_ffi_web`
 
 Imagens:
-- Android/Windows/macOS/Linux: arquivos no diretório da aplicação
+- Android, Windows, macOS e Linux: arquivos no diretório de dados da aplicação
 - Web: Base64 em `SharedPreferences`
 
 ## 7. Dados de exemplo
